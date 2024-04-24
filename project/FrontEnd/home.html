@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lentopeli_2</title>
+    <link href="style.css" rel="stylesheet">
+
+    <script defer src="continents/af.js"></script>
+    <script defer src="continents/an.js"></script>
+    <script defer src="continents/as.js"></script>
+    <script defer src="continents/eu.js"></script>
+    <script defer src="continents/na.js"></script>
+    <script defer src="continents/oc.js"></script>
+    <script defer src="continents/sa.js"></script>
+    <script defer src="script.js"></script>
+
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+</head>
+<body>
+<header>
+    <nav class="navigation">
+    <p>LOGO</p>
+    <ul>
+        <li>Intro</li>
+        <li>Tallennetut pelit</li>
+    </ul>
+</nav>
+</header>
+
+<div class="container">
+    <div id="map">
+        <p>Kartta</p>
+    </div>
+    <div class="player-boxes">
+        <div class="player-1">
+            <table>
+                <tr>
+                    <th><span id="p1-name">Pelaaja 1</span></th>
+                </tr>
+                <tr>
+                    <td>Pisteet: <span id="p1-points">0</span></td>
+                </tr>
+                <tr>
+                    <td>Odotus: <span id="p1-wait">0</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="player-2">
+            <table>
+                <tr>
+                    <th><span id="p2-name">Pelaaja 2</span></th>
+                </tr>
+                <tr>
+                    <td>Pisteet: <span id="p2-points">0</span></td>
+                </tr>
+                <tr>
+                    <td>Odotus: <span id="p2-wait">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<footer></footer>
+</body>
+</html>
